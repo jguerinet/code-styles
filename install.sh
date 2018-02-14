@@ -34,5 +34,5 @@ done
 
 echo "Done."
 echo ""
-echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Guerinet'."
-echo "You can also apply the 'Guerinet-Windows' or 'Guerinet-Mac' keymap."
+echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Guerinet' under 'Code Style' and 'Inspections'."
+echo "You can also apply the 'Guerinet-Windows' or 'Guerinet-Mac' keymap under 'Keymap'."
