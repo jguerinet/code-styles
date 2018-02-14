@@ -21,9 +21,18 @@ do
     # Install inspections
     mkdir -p $i/inspection
     cp -frv "$CONFIGS/inspection"/* $i/inspection
+
+    # Install options
+    mkdir -p $i/options
+    cp -frv "$CONFIGS/options"/* $i/options
+
+    # Install keymaps
+    mkdir -p $i/keymaps
+    cp -frv "$CONFIGS/keymaps"/* $i/keymaps
   fi
 done
 
 echo "Done."
 echo ""
 echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Guerinet'."
+echo "You can also apply the 'Guerinet-Windows' or 'Guerinet-Mac' keymap."

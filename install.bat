@@ -10,6 +10,7 @@ for /D %%i in ("%userprofile%"\.IntelliJIdea*) do call :copy_config "%%i"
 
 echo.
 echo Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Guerinet'.
+echo You can also apply the 'Guerinet-Windows' or 'Guerinet-Mac' keymap. 
 exit /b
 
 REM sub function for copy config files
