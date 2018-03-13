@@ -21,6 +21,12 @@
   <action id="GenerateJavadoc">
     <keyboard-shortcut first-keystroke="alt j" />
   </action>
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="ctrl meta alt down" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl meta alt right" />
+  </action>
   <action id="QuickImplementations">
     <keyboard-shortcut first-keystroke="alt space" />
     <keyboard-shortcut first-keystroke="meta y" />
@@ -43,6 +49,9 @@
     <keyboard-shortcut first-keystroke="ctrl r" />
     <keyboard-shortcut first-keystroke="f10" />
   </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta alt 1" />
+  </action>
   <action id="StepOver" />
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
@@ -58,6 +67,9 @@
   </action>
   <action id="SwitchUp">
     <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="Unsplit">
+    <keyboard-shortcut first-keystroke="meta alt 2" />
   </action>
   <action id="Vcs.Push">
     <keyboard-shortcut first-keystroke="shift meta k" />
